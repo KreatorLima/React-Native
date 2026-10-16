@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "scheme": "07-sistema-login",
+    "experiments": {
+      "typedRoutes": true
+    },
+    "name": "08-Biblioteca",
+    "slug": "08-Biblioteca",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "rene151108.biblioteca"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "e957f01f-5ea4-439a-ac09-bef868f88f07"
+      }
+    }
+  }
+}
